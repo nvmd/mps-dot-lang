@@ -13,9 +13,10 @@ import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
-import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
+import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
+import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
 import jetbrains.mps.nodeEditor.CellActionType;
@@ -34,9 +35,12 @@ public class Graph_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createConstant_6ewwyn_a0(editorContext, node));
     editorCell.addEditorCell(this.createProperty_6ewwyn_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_6ewwyn_c0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNodeList_6ewwyn_d0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNodeList_6ewwyn_e0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_6ewwyn_f0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_6ewwyn_d0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_6ewwyn_e0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_6ewwyn_f0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNodeList_6ewwyn_g0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNodeList_6ewwyn_h0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_6ewwyn_i0(editorContext, node));
     return editorCell;
   }
 
@@ -53,14 +57,15 @@ public class Graph_Editor extends DefaultNodeEditor {
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.MATCHING_LABEL, "paren-edges");
+      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
     }
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_6ewwyn_f0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_6ewwyn_i0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "}");
-    editorCell.setCellId("Constant_6ewwyn_f0");
+    editorCell.setCellId("Constant_6ewwyn_i0");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.PUNCTUATION_LEFT, true);
@@ -71,8 +76,8 @@ public class Graph_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNodeList_6ewwyn_d0(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new Graph_Editor.nodesListHandler_6ewwyn_d0(node, "nodes", editorContext);
+  private EditorCell createRefNodeList_6ewwyn_g0(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new Graph_Editor.nodesListHandler_6ewwyn_g0(node, "nodes", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Indent(), false);
     editorCell.setCellId("refNodeList_nodes");
     {
@@ -84,8 +89,8 @@ public class Graph_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNodeList_6ewwyn_e0(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new Graph_Editor.edgesListHandler_6ewwyn_e0(node, "edges", editorContext);
+  private EditorCell createRefNodeList_6ewwyn_h0(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new Graph_Editor.edgesListHandler_6ewwyn_h0(node, "edges", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Indent(), false);
     editorCell.setCellId("refNodeList_edges");
     {
@@ -94,6 +99,71 @@ public class Graph_Editor extends DefaultNodeEditor {
       style.set(StyleAttributes.INDENT_LAYOUT_INDENT, true);
     }
     editorCell.setRole(handler.getElementRole());
+    return editorCell;
+  }
+
+  private EditorCell createRefNode_6ewwyn_d0(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
+    provider.setRole("graphAttribute");
+    provider.setNoTargetText("<no graphAttribute>");
+    EditorCell editorCell;
+    editorCell = provider.createEditorCell(editorContext);
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.INDENT_LAYOUT_INDENT, true);
+      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+    }
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+    SNode attributeConcept = provider.getRoleAttribute();
+    Class attributeKind = provider.getRoleAttributeClass();
+    if (attributeConcept != null) {
+      IOperationContext opContext = editorContext.getOperationContext();
+      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
+      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
+    } else
+    return editorCell;
+  }
+
+  private EditorCell createRefNode_6ewwyn_e0(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
+    provider.setRole("nodeAttribute");
+    provider.setNoTargetText("<no nodeAttribute>");
+    EditorCell editorCell;
+    editorCell = provider.createEditorCell(editorContext);
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+      style.set(StyleAttributes.INDENT_LAYOUT_INDENT, true);
+    }
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+    SNode attributeConcept = provider.getRoleAttribute();
+    Class attributeKind = provider.getRoleAttributeClass();
+    if (attributeConcept != null) {
+      IOperationContext opContext = editorContext.getOperationContext();
+      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
+      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
+    } else
+    return editorCell;
+  }
+
+  private EditorCell createRefNode_6ewwyn_f0(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
+    provider.setRole("edgeAttribute");
+    provider.setNoTargetText("<no edgeAttribute>");
+    EditorCell editorCell;
+    editorCell = provider.createEditorCell(editorContext);
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.INDENT_LAYOUT_INDENT, true);
+    }
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+    SNode attributeConcept = provider.getRoleAttribute();
+    Class attributeKind = provider.getRoleAttributeClass();
+    if (attributeConcept != null) {
+      IOperationContext opContext = editorContext.getOperationContext();
+      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
+      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
+    } else
     return editorCell;
   }
 
@@ -115,8 +185,8 @@ public class Graph_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static class nodesListHandler_6ewwyn_d0 extends RefNodeListHandler {
-    public nodesListHandler_6ewwyn_d0(SNode ownerNode, String childRole, EditorContext context) {
+  private static class nodesListHandler_6ewwyn_g0 extends RefNodeListHandler {
+    public nodesListHandler_6ewwyn_g0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 
@@ -151,8 +221,8 @@ public class Graph_Editor extends DefaultNodeEditor {
     }
   }
 
-  private static class edgesListHandler_6ewwyn_e0 extends RefNodeListHandler {
-    public edgesListHandler_6ewwyn_e0(SNode ownerNode, String childRole, EditorContext context) {
+  private static class edgesListHandler_6ewwyn_h0 extends RefNodeListHandler {
+    public edgesListHandler_6ewwyn_h0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 

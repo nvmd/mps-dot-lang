@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="dy7nma3nbcazsevmhevltqxk9yim2vq">
+<dependencies version="2" modelHash="-2lctx8l9sdscwl1gwjpznxu5o7ak5lr">
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -15,6 +15,9 @@
     <dep root="3395969331296619495" />
     <dep root="3395969331296619498" />
     <dep root="3395969331296619513" />
+    <dep root="761994931155135733" />
+    <dep root="761994931155135735" />
+    <dep root="761994931155135737" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -26,7 +29,7 @@
     <file name="Dot_Language.java" />
     <file name="StructureAspectDescriptor.java" />
   </common>
-  <source id="3395969331296619487" name="Graph" hash="-3meflh1fy3pm38ll5kut2v8atojy502">
+  <source id="3395969331296619487" name="Graph" hash="1bbjg71bvhv0s0pb20d023kgdla6w0j">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="3395969331296619491" name="Dot" hash="-18dwhm3xijerft54vbz8ars4kcoy418">
@@ -38,10 +41,19 @@
   <source id="3395969331296619495" name="Edge" hash="-n5h5u0jywgo5e82syccnt8afs2bu6r">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="3395969331296619498" name="Attribute" hash="2pq5td6w43cj4ftd32fpu88q7i4r7cn">
+  <source id="3395969331296619498" name="Attribute" hash="-6d6qax1mubautej7jst16mhi9zv9n9r">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="3395969331296619513" name="AttributeList" hash="6pxt6tfvfhrglke4pggyn2q68k0rf9d">
+  <source id="3395969331296619513" name="AttributeList" hash="6yfjxlz7tw65t6ozznlsqiexxnv6sf4">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="761994931155135733" name="GraphAttribute" hash="dc8r8mh4z5d7yd39j0p7v9hwz65iym2">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="761994931155135735" name="EdgeAttribute" hash="bn9sr9lmqgnxabdxjtah6wl7ecahj2n">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="761994931155135737" name="NodeAttribute" hash="3myfh698ygdumbtirfxwi42o6i3nd0c">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
 </dependencies>

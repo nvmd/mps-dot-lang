@@ -7,18 +7,18 @@ import java.util.Arrays;
 import jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted;
 
 public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor {
-  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"trianglio.rnd.lang.dot.structure.Attribute", "trianglio.rnd.lang.dot.structure.AttributeList", "trianglio.rnd.lang.dot.structure.Dot", "trianglio.rnd.lang.dot.structure.Edge", "trianglio.rnd.lang.dot.structure.Graph", "trianglio.rnd.lang.dot.structure.Node"};
+  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"trianglio.rnd.lang.dot.structure.Attribute", "trianglio.rnd.lang.dot.structure.AttributeList", "trianglio.rnd.lang.dot.structure.Dot", "trianglio.rnd.lang.dot.structure.Edge", "trianglio.rnd.lang.dot.structure.EdgeAttribute", "trianglio.rnd.lang.dot.structure.Graph", "trianglio.rnd.lang.dot.structure.GraphAttribute", "trianglio.rnd.lang.dot.structure.Node", "trianglio.rnd.lang.dot.structure.NodeAttribute"};
 
   public BehaviorAspectDescriptor() {
   }
 
   public BehaviorDescriptor getDescriptor(String fqName) {
     switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0a, fqName)) {
-      case 4:
+      case 5:
         return new Graph_BehaviorDescriptor();
       case 2:
         return new Dot_BehaviorDescriptor();
-      case 5:
+      case 7:
         return new Node_BehaviorDescriptor();
       case 3:
         return new Edge_BehaviorDescriptor();
@@ -26,6 +26,12 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new Attribute_BehaviorDescriptor();
       case 1:
         return new AttributeList_BehaviorDescriptor();
+      case 6:
+        return new GraphAttribute_BehaviorDescriptor();
+      case 4:
+        return new EdgeAttribute_BehaviorDescriptor();
+      case 8:
+        return new NodeAttribute_BehaviorDescriptor();
       default:
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }
