@@ -11,7 +11,7 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
-import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
+import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
@@ -78,20 +78,21 @@ public class Graph_Editor extends DefaultNodeEditor {
 
   private EditorCell createRefNodeList_6ewwyn_g0(EditorContext editorContext, SNode node) {
     AbstractCellListHandler handler = new Graph_Editor.nodesListHandler_6ewwyn_g0(node, "nodes", editorContext);
-    EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Indent(), false);
+    EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
     editorCell.setCellId("refNodeList_nodes");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.INDENT_LAYOUT_INDENT, true);
       style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, true);
     }
+    editorCell.setGridLayout(true);
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }
 
   private EditorCell createRefNodeList_6ewwyn_h0(EditorContext editorContext, SNode node) {
     AbstractCellListHandler handler = new Graph_Editor.edgesListHandler_6ewwyn_h0(node, "edges", editorContext);
-    EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Indent(), false);
+    EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
     editorCell.setCellId("refNodeList_edges");
     {
       Style style = editorCell.getStyle();
