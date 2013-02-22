@@ -93,5 +93,52 @@
     </scopeInfo>
     <unitInfo nodeId="761994931155401644" fileName="evenNumberOfZeros.java" startLine="8" startPosition="0" endLine="44" endPosition="0" unitName="trianglio.rnd.lang.dot.sandbox.sandbox.evenNumberOfZeros" />
   </root>
+  <root nodeId="8637771344785801910" modelId="r:eb7e4582-3925-4880-8d06-1bf4ce3c47c8(trianglio.rnd.lang.dot.sandbox.sandbox)">
+    <nodeInfo nodeId="8637771344785801919" fileName="map_DFA.java" startLine="13" startPosition="73" endLine="14" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8637771344785801921" fileName="map_DFA.java" startLine="16" startPosition="73" endLine="17" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8637771344785801923" fileName="map_DFA.java" startLine="19" startPosition="73" endLine="20" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8637771344785801926" fileName="map_DFA.java" startLine="22" startPosition="73" endLine="23" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8637771344785801910" fileName="map_DFA.java" startLine="24" startPosition="5" endLine="25" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+    <nodeInfo nodeId="8637771344785801910" fileName="map_DFA.java" startLine="28" startPosition="27" endLine="29" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8637771344785801910" fileName="map_DFA.java" startLine="30" startPosition="15" endLine="31" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8637771344785801910" fileName="map_DFA.java" startLine="32" startPosition="5" endLine="33" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8637771344785801910" fileName="map_DFA.java" startLine="34" startPosition="16" endLine="35" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8637771344785801910" fileName="map_DFA.java" startLine="39" startPosition="42" endLine="40" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8637771344785801910" fileName="map_DFA.java" startLine="40" startPosition="32" endLine="41" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8637771344785801910" fileName="map_DFA.java" startLine="8" startPosition="38" endLine="10" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="map_DFA#()V" />
+    <nodeInfo nodeId="8637771344785801919" fileName="map_DFA.java" startLine="12" startPosition="97" endLine="15" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8637771344785801921" fileName="map_DFA.java" startLine="15" startPosition="5" endLine="18" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8637771344785801923" fileName="map_DFA.java" startLine="18" startPosition="5" endLine="21" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8637771344785801926" fileName="map_DFA.java" startLine="21" startPosition="5" endLine="24" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8637771344785801910" fileName="map_DFA.java" startLine="29" startPosition="19" endLine="32" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8637771344785801910" fileName="map_DFA.java" startLine="33" startPosition="19" endLine="36" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8637771344785801910" fileName="map_DFA.java" startLine="38" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" />
+    <nodeInfo nodeId="8637771344785801910" fileName="map_DFA.java" startLine="27" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="initNodes#()V" />
+    <nodeInfo nodeId="8637771344785801910" fileName="map_DFA.java" startLine="11" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="makeTransition#(IC)I" />
+    <scopeInfo nodeId="8637771344785801910" fileName="map_DFA.java" startLine="9" startPosition="20" endLine="9" endPosition="20" />
+    <scopeInfo nodeId="8637771344785801919" fileName="map_DFA.java" startLine="13" startPosition="73" endLine="14" endPosition="28" />
+    <scopeInfo nodeId="8637771344785801921" fileName="map_DFA.java" startLine="16" startPosition="73" endLine="17" endPosition="28" />
+    <scopeInfo nodeId="8637771344785801923" fileName="map_DFA.java" startLine="19" startPosition="73" endLine="20" endPosition="28" />
+    <scopeInfo nodeId="8637771344785801926" fileName="map_DFA.java" startLine="22" startPosition="73" endLine="23" endPosition="28" />
+    <scopeInfo nodeId="8637771344785801910" fileName="map_DFA.java" startLine="30" startPosition="15" endLine="31" endPosition="31" />
+    <scopeInfo nodeId="8637771344785801910" fileName="map_DFA.java" startLine="34" startPosition="16" endLine="35" endPosition="31" />
+    <scopeInfo nodeId="8637771344785801910" fileName="map_DFA.java" startLine="8" startPosition="38" endLine="10" endPosition="3" />
+    <scopeInfo nodeId="8637771344785801910" fileName="map_DFA.java" startLine="39" startPosition="42" endLine="41" endPosition="41">
+      <varInfo nodeId="8637771344785801910" varName="dot" />
+    </scopeInfo>
+    <scopeInfo nodeId="8637771344785801910" fileName="map_DFA.java" startLine="28" startPosition="27" endLine="32" endPosition="5" />
+    <scopeInfo nodeId="8637771344785801910" fileName="map_DFA.java" startLine="32" startPosition="5" endLine="36" endPosition="5" />
+    <scopeInfo nodeId="8637771344785801910" fileName="map_DFA.java" startLine="38" startPosition="0" endLine="43" endPosition="0">
+      <varInfo nodeId="8637771344785801910" varName="args" />
+    </scopeInfo>
+    <scopeInfo nodeId="8637771344785801910" fileName="map_DFA.java" startLine="28" startPosition="27" endLine="36" endPosition="5" />
+    <scopeInfo nodeId="8637771344785801910" fileName="map_DFA.java" startLine="27" startPosition="0" endLine="38" endPosition="0" />
+    <scopeInfo nodeId="8637771344785801910" fileName="map_DFA.java" startLine="12" startPosition="97" endLine="25" endPosition="41" />
+    <scopeInfo nodeId="8637771344785801910" fileName="map_DFA.java" startLine="11" startPosition="0" endLine="27" endPosition="0">
+      <varInfo nodeId="8637771344785801910" varName="currentState" />
+      <varInfo nodeId="8637771344785801910" varName="currentSymb" />
+    </scopeInfo>
+    <unitInfo nodeId="8637771344785801910" fileName="map_DFA.java" startLine="8" startPosition="0" endLine="44" endPosition="0" unitName="trianglio.rnd.lang.dot.sandbox.sandbox.map_DFA" />
+  </root>
 </debugInfo>
 

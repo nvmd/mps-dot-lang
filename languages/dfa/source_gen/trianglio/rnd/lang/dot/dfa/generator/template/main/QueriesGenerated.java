@@ -5,14 +5,16 @@ package trianglio.rnd.lang.dot.dfa.generator.template.main;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.generator.template.PropertyMacroContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.generator.template.IfMacroContext;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.generator.template.ReferenceMacroContext;
+import jetbrains.mps.generator.template.IfMacroContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.internal.collections.runtime.ITranslator2;
 import jetbrains.mps.smodel.SNode;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.internal.collections.runtime.ISelector;
+import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 
 public class QueriesGenerated {
@@ -26,6 +28,18 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_8637771344785817160(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "name") + "DFAGraph";
+  }
+
+  public static Object propertyMacro_GetPropertyValue_8637771344785873948(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "symbols", true)).first(), "name");
+  }
+
+  public static Object referenceMacro_GetReferent_8637771344785873634(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(_context.getNode(), "source", false), "StateLabel");
+  }
+
+  public static Object referenceMacro_GetReferent_8637771344785873885(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(_context.getNode(), "target", false), "StateLabel");
   }
 
   public static boolean ifMacro_Condition_8637771344785866229(final IOperationContext operationContext, final IfMacroContext _context) {
@@ -82,6 +96,14 @@ public class QueriesGenerated {
         return SPropertyOperations.hasValue(it, "name", SPropertyOperations.getString(_context.getNode(), "name"));
       }
     }));
+  }
+
+  public static SNode sourceNodeQuery_8637771344785867283(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return _context.getNode();
+  }
+
+  public static Iterable sourceNodesQuery_8637771344785867273(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getTargets(_context.getNode(), "transitions", true);
   }
 
   public static Iterable sourceNodesQuery_8637771344785865781(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
