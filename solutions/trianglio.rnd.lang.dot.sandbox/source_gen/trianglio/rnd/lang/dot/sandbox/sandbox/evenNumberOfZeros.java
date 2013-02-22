@@ -10,16 +10,16 @@ public class evenNumberOfZeros extends DumbDFA {
   }
 
   public int makeTransition(int currentState, char currentSymb) throws DFANoTransitionException {
-    if (getState("s0") == currentState && "0" == (currentSymb + "")) {
+    if (getState("s0") == currentState && "0".charAt(0) == currentSymb) {
       return getState("s1");
     }
-    if (getState("s1") == currentState && "0" == (currentSymb + "")) {
+    if (getState("s1") == currentState && "0".charAt(0) == currentSymb) {
       return getState("s0");
     }
-    if (getState("s0") == currentState && "1" == (currentSymb + "")) {
+    if (getState("s0") == currentState && "1".charAt(0) == currentSymb) {
       return getState("s0");
     }
-    if (getState("s1") == currentState && "1" == (currentSymb + "")) {
+    if (getState("s1") == currentState && "1".charAt(0) == currentSymb) {
       return getState("s1");
     }
     throw new DFANoTransitionException();

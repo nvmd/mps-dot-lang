@@ -10,10 +10,10 @@ public class test extends DumbDFA {
   }
 
   public int makeTransition(int currentState, char currentSymb) throws DFANoTransitionException {
-    if (getState("0") == currentState && "hahaha" == (currentSymb + "")) {
+    if (getState("0") == currentState && "hahaha".charAt(0) == currentSymb) {
       return getState("1");
     }
-    if (getState("1") == currentState && "atata" == (currentSymb + "")) {
+    if (getState("1") == currentState && "atata".charAt(0) == currentSymb) {
       return getState("2");
     }
     throw new DFANoTransitionException();
