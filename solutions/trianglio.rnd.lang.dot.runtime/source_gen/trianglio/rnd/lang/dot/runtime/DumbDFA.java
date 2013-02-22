@@ -13,6 +13,7 @@ public abstract class DumbDFA {
   private Map<Node, List<Edge>> outEdges = new HashMap();
 
   public DumbDFA() {
+    initNodes();
   }
 
   public boolean run(String s) {
@@ -34,6 +35,10 @@ public abstract class DumbDFA {
 
   public void addState(String id) {
     idToNum.put(id, idToNum.size());
+  }
+
+  public void addAcceptanceState(String id) {
+    acceptanceStates.add(getState(id));
   }
 
   public abstract void initNodes();

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-8ezjgbnr9j87ywazn3xgokkl1m3ljpk">
+<dependencies version="2" modelHash="-cj6zjcjdtpij2wq9xyvi6zggva3l2sj">
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
@@ -30,7 +30,7 @@
   <source id="761994931155396538" name="Edge" hash="-b0oytewgk3kh251q4rbefa508kg4c2g">
     <file name="Edge.java" />
   </source>
-  <source id="761994931155412256" name="DumbDFA" hash="4pnako3j3cdanfvk1swa7897x8v378c">
+  <source id="761994931155412256" name="DumbDFA" hash="-2jbipi7mc8bbu1qo7e8b2ikj69itv7l">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
     <file name="DumbDFA.java" />
