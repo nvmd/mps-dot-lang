@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <root nodeId="761994931155396396" modelId="r:5c676753-a359-4b88-a977-69c74e4339c6(trianglio.rnd.lang.dot.runtime)">
+    <nodeInfo nodeId="761994931155396564" fileName="Graph.java" startLine="9" startPosition="45" endLine="10" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="nodes" />
+    <nodeInfo nodeId="761994931155396579" fileName="Graph.java" startLine="10" startPosition="50" endLine="11" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="edges" />
+    <nodeInfo nodeId="761994931155401606" fileName="Graph.java" startLine="13" startPosition="49" endLine="14" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="761994931155396594" fileName="Graph.java" startLine="20" startPosition="38" endLine="21" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="761994931155396623" fileName="Graph.java" startLine="24" startPosition="44" endLine="25" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="761994931155396549" fileName="Graph.java" startLine="16" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addEdge#(Ljava/lang/String;Ljava/lang/String;)V" />
+    <nodeInfo nodeId="761994931155396543" fileName="Graph.java" startLine="12" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addNode#(Ljava/lang/String;Ltrianglio/rnd/lang/dot/runtime/Node;)V" />
+    <nodeInfo nodeId="761994931155396573" fileName="Graph.java" startLine="19" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getNode#(Ljava/lang/String;)Ltrianglio/rnd/lang/dot/runtime/Node;" />
+    <nodeInfo nodeId="761994931155396612" fileName="Graph.java" startLine="23" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getOutEdges#(Ltrianglio/rnd/lang/dot/runtime/Node;)Ljava/util/List;" />
+    <scopeInfo nodeId="761994931155396552" fileName="Graph.java" startLine="17" startPosition="65" endLine="17" endPosition="65" />
+    <scopeInfo nodeId="761994931155396546" fileName="Graph.java" startLine="13" startPosition="49" endLine="14" endPosition="28" />
+    <scopeInfo nodeId="761994931155396576" fileName="Graph.java" startLine="20" startPosition="38" endLine="21" endPosition="29" />
+    <scopeInfo nodeId="761994931155396615" fileName="Graph.java" startLine="24" startPosition="44" endLine="25" endPosition="27" />
+    <scopeInfo nodeId="761994931155396549" fileName="Graph.java" startLine="16" startPosition="0" endLine="19" endPosition="0">
+      <varInfo nodeId="761994931155396559" varName="sourceNodeId" />
+      <varInfo nodeId="761994931155396561" varName="targetNodeId" />
+    </scopeInfo>
+    <scopeInfo nodeId="761994931155396543" fileName="Graph.java" startLine="12" startPosition="0" endLine="16" endPosition="0">
+      <varInfo nodeId="761994931155396556" varName="node" />
+      <varInfo nodeId="761994931155396547" varName="nodeId" />
+    </scopeInfo>
+    <scopeInfo nodeId="761994931155396573" fileName="Graph.java" startLine="19" startPosition="0" endLine="23" endPosition="0">
+      <varInfo nodeId="761994931155396577" varName="nodeId" />
+    </scopeInfo>
+    <scopeInfo nodeId="761994931155396612" fileName="Graph.java" startLine="23" startPosition="0" endLine="27" endPosition="0">
+      <varInfo nodeId="761994931155396621" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="761994931155396396" fileName="Graph.java" startLine="9" startPosition="0" endLine="28" endPosition="0" unitName="trianglio.rnd.lang.dot.runtime.Graph" />
+  </root>
+  <root nodeId="761994931155396403" modelId="r:5c676753-a359-4b88-a977-69c74e4339c6(trianglio.rnd.lang.dot.runtime)">
+    <nodeInfo nodeId="761994931155396526" fileName="DFA.java" startLine="7" startPosition="32" endLine="8" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="start" />
+    <nodeInfo nodeId="761994931155396530" fileName="DFA.java" startLine="8" startPosition="21" endLine="9" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="acceptance" />
+    <unitInfo nodeId="761994931155396403" fileName="DFA.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="trianglio.rnd.lang.dot.runtime.DFA" />
+  </root>
+  <root nodeId="761994931155396408" modelId="r:5c676753-a359-4b88-a977-69c74e4339c6(trianglio.rnd.lang.dot.runtime)">
+    <nodeInfo nodeId="761994931155396412" fileName="Node.java" startLine="7" startPosition="44" endLine="8" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="attributes" />
+    <unitInfo nodeId="761994931155396408" fileName="Node.java" startLine="7" startPosition="0" endLine="10" endPosition="0" unitName="trianglio.rnd.lang.dot.runtime.Node" />
+  </root>
+  <root nodeId="761994931155396424" modelId="r:5c676753-a359-4b88-a977-69c74e4339c6(trianglio.rnd.lang.dot.runtime)">
+    <nodeInfo nodeId="761994931155396429" fileName="Attributes.java" startLine="7" startPosition="25" endLine="8" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="attributes" />
+    <nodeInfo nodeId="761994931155396463" fileName="Attributes.java" startLine="10" startPosition="45" endLine="11" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="761994931155396452" fileName="Attributes.java" startLine="9" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="add#(Ljava/lang/String;Ljava/lang/String;)V" />
+    <scopeInfo nodeId="761994931155396455" fileName="Attributes.java" startLine="10" startPosition="45" endLine="11" endPosition="31" />
+    <scopeInfo nodeId="761994931155396452" fileName="Attributes.java" startLine="9" startPosition="0" endLine="13" endPosition="0">
+      <varInfo nodeId="761994931155396456" varName="key" />
+      <varInfo nodeId="761994931155396458" varName="value" />
+    </scopeInfo>
+    <unitInfo nodeId="761994931155396424" fileName="Attributes.java" startLine="7" startPosition="0" endLine="14" endPosition="0" unitName="trianglio.rnd.lang.dot.runtime.Attributes" />
+  </root>
+  <root nodeId="761994931155396485" modelId="r:5c676753-a359-4b88-a977-69c74e4339c6(trianglio.rnd.lang.dot.runtime)">
+    <nodeInfo nodeId="761994931155396489" fileName="AttributedObject.java" startLine="7" startPosition="31" endLine="8" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="attributes" />
+    <nodeInfo nodeId="761994931155396506" fileName="AttributedObject.java" startLine="10" startPosition="54" endLine="11" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="761994931155396497" fileName="AttributedObject.java" startLine="9" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addAttribute#(Ljava/lang/String;Ljava/lang/String;)V" />
+    <scopeInfo nodeId="761994931155396500" fileName="AttributedObject.java" startLine="10" startPosition="54" endLine="11" endPosition="31" />
+    <scopeInfo nodeId="761994931155396497" fileName="AttributedObject.java" startLine="9" startPosition="0" endLine="13" endPosition="0">
+      <varInfo nodeId="761994931155396501" varName="key" />
+      <varInfo nodeId="761994931155396503" varName="value" />
+    </scopeInfo>
+    <unitInfo nodeId="761994931155396485" fileName="AttributedObject.java" startLine="7" startPosition="0" endLine="14" endPosition="0" unitName="trianglio.rnd.lang.dot.runtime.AttributedObject" />
+  </root>
+  <root nodeId="761994931155396538" modelId="r:5c676753-a359-4b88-a977-69c74e4339c6(trianglio.rnd.lang.dot.runtime)">
+    <unitInfo nodeId="761994931155396538" fileName="Edge.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="trianglio.rnd.lang.dot.runtime.Edge" />
+  </root>
+  <root nodeId="761994931155412256" modelId="r:5c676753-a359-4b88-a977-69c74e4339c6(trianglio.rnd.lang.dot.runtime)">
+    <nodeInfo nodeId="761994931155413070" fileName="DumbDFA.java" startLine="10" startPosition="31" endLine="11" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="acceptanceStates" />
+    <nodeInfo nodeId="761994931155420686" fileName="DumbDFA.java" startLine="11" startPosition="59" endLine="12" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="idToNum" />
+    <nodeInfo nodeId="761994931155422105" fileName="DumbDFA.java" startLine="12" startPosition="55" endLine="13" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="outEdges" />
+    <nodeInfo nodeId="761994931155413040" fileName="DumbDFA.java" startLine="18" startPosition="32" endLine="19" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="761994931155413020" fileName="DumbDFA.java" startLine="20" startPosition="42" endLine="21" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="761994931155413240" fileName="DumbDFA.java" startLine="22" startPosition="11" endLine="23" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="761994931155413257" fileName="DumbDFA.java" startLine="24" startPosition="44" endLine="25" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="761994931155413087" fileName="DumbDFA.java" startLine="27" startPosition="5" endLine="28" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="761994931155420684" fileName="DumbDFA.java" startLine="31" startPosition="34" endLine="32" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="761994931155420721" fileName="DumbDFA.java" startLine="35" startPosition="35" endLine="36" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="761994931155413292" fileName="DumbDFA.java" startLine="14" startPosition="0" endLine="16" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="DumbDFA#()V" />
+    <nodeInfo nodeId="761994931155442140" fileName="DumbDFA.java" startLine="38" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="initNodes#()V" />
+    <nodeInfo nodeId="761994931155413113" fileName="DumbDFA.java" startLine="40" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="makeTransition#(IC)I" />
+    <nodeInfo nodeId="761994931155420677" fileName="DumbDFA.java" startLine="30" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getState#(Ljava/lang/String;)I" />
+    <nodeInfo nodeId="761994931155420715" fileName="DumbDFA.java" startLine="34" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addState#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="761994931155413229" fileName="DumbDFA.java" startLine="21" startPosition="30" endLine="26" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
+    <nodeInfo nodeId="761994931155412292" fileName="DumbDFA.java" startLine="19" startPosition="25" endLine="27" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
+    <nodeInfo nodeId="761994931155412260" fileName="DumbDFA.java" startLine="17" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="run#(Ljava/lang/String;)Z" />
+    <scopeInfo nodeId="761994931155413295" fileName="DumbDFA.java" startLine="15" startPosition="20" endLine="15" endPosition="20" />
+    <scopeInfo nodeId="761994931155413230" fileName="DumbDFA.java" startLine="22" startPosition="11" endLine="23" endPosition="58" />
+    <scopeInfo nodeId="761994931155413232" fileName="DumbDFA.java" startLine="24" startPosition="0" endLine="25" endPosition="21">
+      <varInfo nodeId="761994931155413233" varName="e" />
+    </scopeInfo>
+    <scopeInfo nodeId="761994931155413235" fileName="DumbDFA.java" startLine="24" startPosition="44" endLine="25" endPosition="21" />
+    <scopeInfo nodeId="761994931155420680" fileName="DumbDFA.java" startLine="31" startPosition="34" endLine="32" endPosition="27" />
+    <scopeInfo nodeId="761994931155420718" fileName="DumbDFA.java" startLine="35" startPosition="35" endLine="36" endPosition="36" />
+    <scopeInfo nodeId="761994931155413292" fileName="DumbDFA.java" startLine="14" startPosition="0" endLine="16" endPosition="3" />
+    <scopeInfo nodeId="761994931155442140" fileName="DumbDFA.java" startLine="38" startPosition="0" endLine="40" endPosition="0" />
+    <scopeInfo nodeId="761994931155413113" fileName="DumbDFA.java" startLine="40" startPosition="0" endLine="42" endPosition="0">
+      <varInfo nodeId="761994931155413124" varName="currentState" />
+      <varInfo nodeId="761994931155413131" varName="currentSymb" />
+    </scopeInfo>
+    <scopeInfo nodeId="761994931155420677" fileName="DumbDFA.java" startLine="30" startPosition="0" endLine="34" endPosition="0">
+      <varInfo nodeId="761994931155420682" varName="id" />
+    </scopeInfo>
+    <scopeInfo nodeId="761994931155420715" fileName="DumbDFA.java" startLine="34" startPosition="0" endLine="38" endPosition="0">
+      <varInfo nodeId="761994931155420719" varName="id" />
+    </scopeInfo>
+    <scopeInfo nodeId="761994931155412294" fileName="DumbDFA.java" startLine="20" startPosition="42" endLine="26" endPosition="7">
+      <varInfo nodeId="761994931155413021" varName="symb" />
+    </scopeInfo>
+    <scopeInfo nodeId="761994931155412292" fileName="DumbDFA.java" startLine="19" startPosition="25" endLine="27" endPosition="5">
+      <varInfo nodeId="761994931155412293" varName="i" />
+    </scopeInfo>
+    <scopeInfo nodeId="761994931155412263" fileName="DumbDFA.java" startLine="18" startPosition="32" endLine="28" endPosition="51">
+      <varInfo nodeId="761994931155413041" varName="currentState" />
+    </scopeInfo>
+    <scopeInfo nodeId="761994931155412260" fileName="DumbDFA.java" startLine="17" startPosition="0" endLine="30" endPosition="0">
+      <varInfo nodeId="761994931155412264" varName="s" />
+    </scopeInfo>
+    <unitInfo nodeId="761994931155412256" fileName="DumbDFA.java" startLine="10" startPosition="0" endLine="43" endPosition="0" unitName="trianglio.rnd.lang.dot.runtime.DumbDFA" />
+  </root>
+  <root nodeId="761994931155413149" modelId="r:5c676753-a359-4b88-a977-69c74e4339c6(trianglio.rnd.lang.dot.runtime)">
+    <unitInfo nodeId="761994931155413149" fileName="DFANoTransitionException.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="trianglio.rnd.lang.dot.runtime.DFANoTransitionException" />
+  </root>
+</debugInfo>
+

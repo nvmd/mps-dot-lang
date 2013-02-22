@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="70tj6sovqe2el3dmwc7r5eohcko4l0u">
-  <common hash="-ed1gu5wuio07dihzv2zefmf9ip3qow6" />
-  <source id="4697298013209769534" hash="-9iujodxmgl2r72jrs1pko9uec1nlhkg" />
+<dependencies version="2" modelHash="-bqik0179p85qthkmdjm1fwe99few084">
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+  <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
+  <dep model="r:2aacf163-ca58-4da4-b00d-243d543297ac(trianglio.rnd.lang.dot.generator.template.main@generator)" hash="-1q5mjdvwnmj1rqyxbvnf92gyh646p09" />
+  <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+  <common hash="-ed1gu5wuio07dihzv2zefmf9ip3qow6">
+    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+  </common>
+  <source id="4697298013209769534" name="test" hash="-cly2dzeadmnztj731ymqx6yto8opbym">
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
+    <dep model="r:2aacf163-ca58-4da4-b00d-243d543297ac(trianglio.rnd.lang.dot.generator.template.main@generator)" />
+    <file name="test.java" />
+  </source>
+  <source id="761994931155401644" name="evenNumberOfZeros" hash="cvsjo8upo4z21o2481e8zm7p9l9v09">
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
+    <dep model="r:2aacf163-ca58-4da4-b00d-243d543297ac(trianglio.rnd.lang.dot.generator.template.main@generator)" />
+    <file name="evenNumberOfZeros.java" />
+  </source>
 </dependencies>
 

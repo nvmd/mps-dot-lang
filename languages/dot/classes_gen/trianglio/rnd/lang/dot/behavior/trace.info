@@ -3,7 +3,7 @@
   <unitInfo fileName="AttributeList_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="trianglio.rnd.lang.dot.behavior.AttributeList_BehaviorDescriptor" />
   <unitInfo fileName="Attribute_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="trianglio.rnd.lang.dot.behavior.Attribute_BehaviorDescriptor" />
   <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="40" endPosition="0" unitName="trianglio.rnd.lang.dot.behavior.BehaviorAspectDescriptor" />
-  <unitInfo fileName="Dot_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="trianglio.rnd.lang.dot.behavior.Dot_BehaviorDescriptor" />
+  <unitInfo fileName="Dot_BehaviorDescriptor.java" startLine="12" startPosition="0" endLine="33" endPosition="0" unitName="trianglio.rnd.lang.dot.behavior.Dot_BehaviorDescriptor" />
   <unitInfo fileName="EdgeAttribute_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="trianglio.rnd.lang.dot.behavior.EdgeAttribute_BehaviorDescriptor" />
   <unitInfo fileName="Edge_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="trianglio.rnd.lang.dot.behavior.Edge_BehaviorDescriptor" />
   <unitInfo fileName="GraphAttribute_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="trianglio.rnd.lang.dot.behavior.GraphAttribute_BehaviorDescriptor" />

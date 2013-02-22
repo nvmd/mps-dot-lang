@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies version="2" modelHash="-8ezjgbnr9j87ywazn3xgokkl1m3ljpk">
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+  <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
+  <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+  <common hash="xt2ahth0k0hm2umdfzgnu9uhq5f6d">
+    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+  </common>
+  <source id="761994931155396396" name="Graph" hash="-5rggus6shrlevgxqc43lwhjoxz5r02x">
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
+    <file name="Graph.java" />
+  </source>
+  <source id="761994931155396403" name="DFA" hash="4vg8zcbr5go28nh2tcqkc8blz7byg1m">
+    <file name="DFA.java" />
+  </source>
+  <source id="761994931155396408" name="Node" hash="-dcbaofk1a0o43fpifu3jp42vmxe3eu0">
+    <file name="Node.java" />
+  </source>
+  <source id="761994931155396424" name="Attributes" hash="5kv7fq7144k0dusjk01it6djgl0ihkf">
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
+    <file name="Attributes.java" />
+  </source>
+  <source id="761994931155396485" name="AttributedObject" hash="e2ts2qoafoea6j5qxvylpnnavxkld1h">
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
+    <file name="AttributedObject.java" />
+  </source>
+  <source id="761994931155396538" name="Edge" hash="-b0oytewgk3kh251q4rbefa508kg4c2g">
+    <file name="Edge.java" />
+  </source>
+  <source id="761994931155412256" name="DumbDFA" hash="4pnako3j3cdanfvk1swa7897x8v378c">
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
+    <file name="DumbDFA.java" />
+  </source>
+  <source id="761994931155413149" name="DFANoTransitionException" hash="-4z6z83843s3hzmsv7myf1p72ux8n5qf">
+    <file name="DFANoTransitionException.java" />
+  </source>
+</dependencies>
+

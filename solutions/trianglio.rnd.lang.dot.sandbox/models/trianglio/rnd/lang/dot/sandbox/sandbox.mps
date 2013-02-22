@@ -5,7 +5,14 @@
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="u625" modelUID="r:1b9fbac8-82d6-4076-b483-e56d245226fe(trianglio.rnd.lang.dot.structure)" version="-1" implicit="yes" />
   <roots>
-    <node type="u625.Dot" typeId="u625.3395969331296619491" id="4697298013209769534" />
+    <node type="u625.Dot" typeId="u625.3395969331296619491" id="4697298013209769534">
+      <property name="name" nameId="tpck.1169194664001" value="test" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="graph" />
+    </node>
+    <node type="u625.Dot" typeId="u625.3395969331296619491" id="761994931155401644">
+      <property name="name" nameId="tpck.1169194664001" value="evenNumberOfZeros" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="dfa" />
+    </node>
   </roots>
   <root id="4697298013209769534">
     <node role="graph" roleId="u625.3395969331296619507" type="u625.Graph" typeId="u625.3395969331296619487" id="4697298013209769535">
@@ -15,7 +22,7 @@
         <node role="attributes" roleId="u625.3395969331296628643" type="u625.AttributeList" typeId="u625.3395969331296619513" id="4697298013209772989">
           <node role="attributes" roleId="u625.3395969331296619515" type="u625.Attribute" typeId="u625.3395969331296619498" id="4697298013209772990">
             <property name="name" nameId="tpck.1169194664001" value="name" />
-            <property name="value" nameId="u625.3395969331296619511" value="&quot;s0&quot;" />
+            <property name="value" nameId="u625.3395969331296619511" value="s0" />
           </node>
         </node>
       </node>
@@ -24,11 +31,11 @@
         <node role="attributes" roleId="u625.3395969331296628643" type="u625.AttributeList" typeId="u625.3395969331296619513" id="4697298013209772994">
           <node role="attributes" roleId="u625.3395969331296619515" type="u625.Attribute" typeId="u625.3395969331296619498" id="4697298013209772995">
             <property name="name" nameId="tpck.1169194664001" value="name" />
-            <property name="value" nameId="u625.3395969331296619511" value="&quot;s1&quot;" />
+            <property name="value" nameId="u625.3395969331296619511" value="s1" />
           </node>
           <node role="attributes" roleId="u625.3395969331296619515" type="u625.Attribute" typeId="u625.3395969331296619498" id="761994931155147016">
             <property name="name" nameId="tpck.1169194664001" value="label" />
-            <property name="value" nameId="u625.3395969331296619511" value="&quot;test&quot;" />
+            <property name="value" nameId="u625.3395969331296619511" value="test" />
           </node>
         </node>
       </node>
@@ -37,11 +44,11 @@
         <node role="attributes" roleId="u625.3395969331296628643" type="u625.AttributeList" typeId="u625.3395969331296619513" id="761994931155152478">
           <node role="attributes" roleId="u625.3395969331296619515" type="u625.Attribute" typeId="u625.3395969331296619498" id="761994931155152479">
             <property name="name" nameId="tpck.1169194664001" value="name" />
-            <property name="value" nameId="u625.3395969331296619511" value="&quot;s3&quot;" />
+            <property name="value" nameId="u625.3395969331296619511" value="s3" />
           </node>
           <node role="attributes" roleId="u625.3395969331296619515" type="u625.Attribute" typeId="u625.3395969331296619498" id="761994931155152480">
             <property name="name" nameId="tpck.1169194664001" value="label" />
-            <property name="value" nameId="u625.3395969331296619511" value="&quot;test2&quot;" />
+            <property name="value" nameId="u625.3395969331296619511" value="test2" />
           </node>
         </node>
       </node>
@@ -55,7 +62,7 @@
           </node>
           <node role="attributes" roleId="u625.3395969331296619515" type="u625.Attribute" typeId="u625.3395969331296619498" id="4697298013209770320">
             <property name="name" nameId="tpck.1169194664001" value="label" />
-            <property name="value" nameId="u625.3395969331296619511" value="&quot;hahaha&quot;" />
+            <property name="value" nameId="u625.3395969331296619511" value="hahaha" />
           </node>
         </node>
       </node>
@@ -69,7 +76,70 @@
           </node>
           <node role="attributes" roleId="u625.3395969331296619515" type="u625.Attribute" typeId="u625.3395969331296619498" id="761994931155152475">
             <property name="name" nameId="tpck.1169194664001" value="label" />
-            <property name="value" nameId="u625.3395969331296619511" value="&quot;atata&quot;" />
+            <property name="value" nameId="u625.3395969331296619511" value="atata" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
+  <root id="761994931155401644">
+    <node role="graph" roleId="u625.3395969331296619507" type="u625.Graph" typeId="u625.3395969331296619487" id="761994931155401647">
+      <property name="name" nameId="tpck.1169194664001" value="EvenNumberOfZeros" />
+      <node role="edges" roleId="u625.3395969331296619503" type="u625.Edge" typeId="u625.3395969331296619495" id="761994931155401678">
+        <link role="source" roleId="u625.3395969331296619505" targetNodeId="761994931155401648" resolveInfo="s0" />
+        <link role="target" roleId="u625.3395969331296619506" targetNodeId="761994931155401676" resolveInfo="s1" />
+        <node role="attributes" roleId="u625.3395969331296619516" type="u625.AttributeList" typeId="u625.3395969331296619513" id="761994931155401683">
+          <node role="attributes" roleId="u625.3395969331296619515" type="u625.Attribute" typeId="u625.3395969331296619498" id="761994931155401684">
+            <property name="name" nameId="tpck.1169194664001" value="label" />
+            <property name="value" nameId="u625.3395969331296619511" value="0" />
+          </node>
+        </node>
+      </node>
+      <node role="edges" roleId="u625.3395969331296619503" type="u625.Edge" typeId="u625.3395969331296619495" id="761994931155401685">
+        <link role="source" roleId="u625.3395969331296619505" targetNodeId="761994931155401676" resolveInfo="s1" />
+        <link role="target" roleId="u625.3395969331296619506" targetNodeId="761994931155401648" resolveInfo="s0" />
+        <node role="attributes" roleId="u625.3395969331296619516" type="u625.AttributeList" typeId="u625.3395969331296619513" id="761994931155401691">
+          <node role="attributes" roleId="u625.3395969331296619515" type="u625.Attribute" typeId="u625.3395969331296619498" id="761994931155401692">
+            <property name="name" nameId="tpck.1169194664001" value="label" />
+            <property name="value" nameId="u625.3395969331296619511" value="0" />
+          </node>
+        </node>
+      </node>
+      <node role="edges" roleId="u625.3395969331296619503" type="u625.Edge" typeId="u625.3395969331296619495" id="761994931155401708">
+        <link role="source" roleId="u625.3395969331296619505" targetNodeId="761994931155401648" resolveInfo="s0" />
+        <link role="target" roleId="u625.3395969331296619506" targetNodeId="761994931155401648" resolveInfo="s0" />
+        <node role="attributes" roleId="u625.3395969331296619516" type="u625.AttributeList" typeId="u625.3395969331296619513" id="761994931155401711">
+          <node role="attributes" roleId="u625.3395969331296619515" type="u625.Attribute" typeId="u625.3395969331296619498" id="761994931155401712">
+            <property name="name" nameId="tpck.1169194664001" value="label" />
+            <property name="value" nameId="u625.3395969331296619511" value="1" />
+          </node>
+        </node>
+      </node>
+      <node role="edges" roleId="u625.3395969331296619503" type="u625.Edge" typeId="u625.3395969331296619495" id="761994931155401710">
+        <link role="target" roleId="u625.3395969331296619506" targetNodeId="761994931155401676" resolveInfo="s1" />
+        <link role="source" roleId="u625.3395969331296619505" targetNodeId="761994931155401676" resolveInfo="s1" />
+        <node role="attributes" roleId="u625.3395969331296619516" type="u625.AttributeList" typeId="u625.3395969331296619513" id="761994931155401714">
+          <node role="attributes" roleId="u625.3395969331296619515" type="u625.Attribute" typeId="u625.3395969331296619498" id="761994931155401715">
+            <property name="name" nameId="tpck.1169194664001" value="label" />
+            <property name="value" nameId="u625.3395969331296619511" value="1" />
+          </node>
+        </node>
+      </node>
+      <node role="nodes" roleId="u625.3395969331296619502" type="u625.Node" typeId="u625.3395969331296619493" id="761994931155401648">
+        <property name="name" nameId="tpck.1169194664001" value="s0" />
+        <node role="attributes" roleId="u625.3395969331296628643" type="u625.AttributeList" typeId="u625.3395969331296619513" id="761994931155401654">
+          <node role="attributes" roleId="u625.3395969331296619515" type="u625.Attribute" typeId="u625.3395969331296619498" id="761994931155401655">
+            <property name="name" nameId="tpck.1169194664001" value="acceptance" />
+            <property name="value" nameId="u625.3395969331296619511" value="1" />
+          </node>
+        </node>
+      </node>
+      <node role="nodes" roleId="u625.3395969331296619502" type="u625.Node" typeId="u625.3395969331296619493" id="761994931155401676">
+        <property name="name" nameId="tpck.1169194664001" value="s1" />
+        <node role="attributes" roleId="u625.3395969331296628643" type="u625.AttributeList" typeId="u625.3395969331296619513" id="761994931155401677">
+          <node role="attributes" roleId="u625.3395969331296619515" type="u625.Attribute" typeId="u625.3395969331296619498" id="761994931155401686">
+            <property name="name" nameId="tpck.1169194664001" value="acceptance" />
+            <property name="value" nameId="u625.3395969331296619511" value="0" />
           </node>
         </node>
       </node>

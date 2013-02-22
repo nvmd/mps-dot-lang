@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="trianglio.rnd.lang.dot.runtime.AttributedObject" file="AttributedObject.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Map" />
+  </dependency>
+  <dependency className="trianglio.rnd.lang.dot.runtime.Attributes" file="Attributes.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Map" />
+  </dependency>
+  <dependency className="trianglio.rnd.lang.dot.runtime.DFA" file="DFA.java">
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="trianglio.rnd.lang.dot.runtime.Node" />
+    <classNode extendsClassName="trianglio.rnd.lang.dot.runtime.Graph" />
+  </dependency>
+  <dependency className="trianglio.rnd.lang.dot.runtime.DFANoTransitionException" file="DFANoTransitionException.java">
+    <classNode extendsClassName="java.lang.Exception" />
+  </dependency>
+  <dependency className="trianglio.rnd.lang.dot.runtime.DumbDFA" file="DumbDFA.java">
+    <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="java.util.HashMap" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="trianglio.rnd.lang.dot.runtime.DFANoTransitionException" />
+    <classNode dependClassName="trianglio.rnd.lang.dot.runtime.Edge" />
+    <classNode dependClassName="trianglio.rnd.lang.dot.runtime.Node" />
+  </dependency>
+  <dependency className="trianglio.rnd.lang.dot.runtime.Edge" file="Edge.java">
+    <classNode extendsClassName="trianglio.rnd.lang.dot.runtime.AttributedObject" />
+  </dependency>
+  <dependency className="trianglio.rnd.lang.dot.runtime.Graph" file="Graph.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.HashMap" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="trianglio.rnd.lang.dot.runtime.Edge" />
+    <classNode dependClassName="trianglio.rnd.lang.dot.runtime.Node" />
+    <classNode extendsClassName="trianglio.rnd.lang.dot.runtime.AttributedObject" />
+  </dependency>
+  <dependency className="trianglio.rnd.lang.dot.runtime.Node" file="Node.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Map" />
+    <classNode extendsClassName="trianglio.rnd.lang.dot.runtime.AttributedObject" />
+  </dependency>
+</dependenciesRoot>
+
