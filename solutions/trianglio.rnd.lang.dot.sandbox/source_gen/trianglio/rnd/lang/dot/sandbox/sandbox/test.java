@@ -21,17 +21,8 @@ public class test extends DumbDFA {
 
   public void initNodes() {
     addState("0");
-    if (false) {
-      addAcceptanceState("0");
-    }
     addState("1");
-    if (false) {
-      addAcceptanceState("1");
-    }
     addState("2");
-    if (false) {
-      addAcceptanceState("2");
-    }
   }
 
   public static void main(String[] args) {

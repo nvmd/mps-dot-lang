@@ -27,13 +27,8 @@ public class map_DFA extends DumbDFA {
 
   public void initNodes() {
     addState("s0");
-    if (true) {
-      addAcceptanceState("s0");
-    }
+    addAcceptanceState("s0");
     addState("s1");
-    if (false) {
-      addAcceptanceState("s1");
-    }
   }
 
   public static void main(String[] args) {

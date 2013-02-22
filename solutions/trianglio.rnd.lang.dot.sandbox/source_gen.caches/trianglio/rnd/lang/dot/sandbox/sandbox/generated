@@ -2,7 +2,7 @@
 <dependencies version="2" modelHash="1n1vzpayqi2avj3jvc5b0c3xeabo5t1">
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
-  <dep model="r:2aacf163-ca58-4da4-b00d-243d543297ac(trianglio.rnd.lang.dot.generator.template.main@generator)" hash="-2tujcqt2oow35sut0izoy3lw40x231f" />
+  <dep model="r:2aacf163-ca58-4da4-b00d-243d543297ac(trianglio.rnd.lang.dot.generator.template.main@generator)" hash="extnfkcz4xgurz3rvvsqu15ahvpz9tg" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   <dep model="r:b99181ee-15f3-4272-8713-5a9423274fcf(trianglio.rnd.lang.dot.dfa.generator.template.main@generator)" hash="6kgqh1203qc4mw0mehxxm4n89wtqygf" />
   <common hash="2h2qjliw0dxa4rg2tgbi96a4p50qon1">
