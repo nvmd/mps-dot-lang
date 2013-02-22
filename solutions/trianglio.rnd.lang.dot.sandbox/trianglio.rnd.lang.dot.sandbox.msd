@@ -11,6 +11,7 @@
   <usedLanguages>
     <usedLanguage>4caf0310-491e-41f5-8a9b-2006b3a94898(jetbrains.mps.execution.util)</usedLanguage>
     <usedLanguage>20a363b0-2d4e-4f48-8e60-37bc0b79373c(trianglio.rnd.lang.dot)</usedLanguage>
+    <usedLanguage>26f629dc-8cf8-42fd-a54e-2851bdb38b33(trianglio.rnd.lang.dot.dfa)</usedLanguage>
   </usedLanguages>
 </solution>
 

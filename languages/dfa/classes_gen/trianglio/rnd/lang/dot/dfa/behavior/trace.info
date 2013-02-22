@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="32" endPosition="0" unitName="trianglio.rnd.lang.dot.dfa.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="DFA_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="trianglio.rnd.lang.dot.dfa.behavior.DFA_BehaviorDescriptor" />
+  <unitInfo fileName="StateReference_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="trianglio.rnd.lang.dot.dfa.behavior.StateReference_BehaviorDescriptor" />
+  <unitInfo fileName="State_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="trianglio.rnd.lang.dot.dfa.behavior.State_BehaviorDescriptor" />
+  <unitInfo fileName="Symbol_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="trianglio.rnd.lang.dot.dfa.behavior.Symbol_BehaviorDescriptor" />
+  <unitInfo fileName="Transition_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="trianglio.rnd.lang.dot.dfa.behavior.Transition_BehaviorDescriptor" />
+</debugInfo>
+

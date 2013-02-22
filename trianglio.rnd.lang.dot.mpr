@@ -6,6 +6,7 @@
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
   <component name="MPSProject">
     <projectModules>
+      <modulePath path="${project}/languages/dfa/trianglio.rnd.lang.dot.dfa.mpl" folder="" />
       <modulePath path="${project}/languages/dot/dot.mpl" />
       <modulePath path="${project}/solutions/trianglio.rnd.lang.dot.runtime/trianglio.rnd.lang.dot.runtime.msd" />
       <modulePath path="${project}/solutions/trianglio.rnd.lang.dot.sandbox/trianglio.rnd.lang.dot.sandbox.msd" />
